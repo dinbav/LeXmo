@@ -17,7 +17,7 @@ setuptools.setup(
     url='https://github.com/dinbav/LeXmo',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
-    install_requires=["pandas","nltk", "requests"],
+    install_requires=["pandas","nltk", "requests", "io"],
     classifiers=[
         # Trove classifiers
         # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)
@@ -28,6 +28,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
-        'Intended Audience :: Developers and Researchers',
+        'Intended Audience :: Developers',
+        'INTENDED AUDIENCE :: SCIENCE/RESEARCH'
     ],
 )
