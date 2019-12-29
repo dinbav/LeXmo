@@ -12,7 +12,7 @@ setuptools.setup(
     name='LeXmo',
     license="Attribution-NonCommercial 4.0 International",
     description='LeXmo is a python package for emotion classification.',
-    version='v0.0.1',
+    version='v0.1.1',
     long_description=README,
     url='https://github.com/dinbav/LeXmo',
     packages=setuptools.find_packages(),
@@ -26,9 +26,10 @@ setuptools.setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Natural Language :: English',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
-        'INTENDED AUDIENCE :: SCIENCE/RESEARCH'
+        'Intended Audience :: Science/Research',
     ],
 )
