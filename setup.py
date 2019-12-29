@@ -12,12 +12,12 @@ setuptools.setup(
     name='LeXmo',
     license="Attribution-NonCommercial 4.0 International",
     description='LeXmo is a python package for emotion classification.',
-    version='v0.1.1',
+    version='v0.1.3',
     long_description=README,
     url='https://github.com/dinbav/LeXmo',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
-    install_requires=["pandas","nltk", "requests", "StringIO"],
+    install_requires=["pandas","nltk", "requests"],
     classifiers=[
         # Trove classifiers
         # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)
