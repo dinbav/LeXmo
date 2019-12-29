@@ -17,7 +17,7 @@ setuptools.setup(
     url='https://github.com/dinbav/LeXmo',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
-    install_requires=["pandas","nltk", "requests", "io"],
+    install_requires=["pandas","nltk", "requests", "StringIO"],
     classifiers=[
         # Trove classifiers
         # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)

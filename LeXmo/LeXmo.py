@@ -1,4 +1,6 @@
+
 def LeXmo(text):
+
     '''
       Takes text and adds if to a dictionary with 10 Keys  for each of the 10 emotions in the NRC Emotion Lexicon,
       each dictionay contains the value of the text in that emotions divided to the text word count
@@ -9,9 +11,9 @@ def LeXmo(text):
       '''
 
     response = requests.get('https://raw.github.com/dinbav/LeXmo/master/NRC-Emotion-Lexicon-Wordlevel-v0.92.txt')
-    nrc = io.StringIO(response.text)
+    nrc = StringIO(response.text)
 
-    text = t
+
 
     LeXmo_dict = {'text': text, 'anger': [], 'anticipation': [], 'disgust': [], 'fear': [], 'joy': [], 'negative': [],
                   'positive': [], 'sadness': [], 'surprise': [], 'trust': []}
