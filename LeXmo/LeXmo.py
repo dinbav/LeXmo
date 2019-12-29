@@ -1,3 +1,9 @@
+nltk.download('punkt')
+from nltk import word_tokenize
+from nltk.stem.snowball import SnowballStemmer
+import requests
+from io import StringIO
+
 
 def LeXmo(text):
 
